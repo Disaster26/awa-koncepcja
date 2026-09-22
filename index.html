@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWA - narzędzia skrawające i oprzyrządowanie CNC, doradztwo techniczne | Chorzów</title>
+<meta name="description" content="AWA Sp. z o.o., Chorzów: od 1992 r. narzędzia skrawające do toczenia, frezowania, wiercenia i gwintowania, oprzyrządowanie do obrabiarek CNC. Wyłączny dystrybutor DHF i Kojex, dystrybutor Widia, Iscar, Lamina. Doradcy techniczni w 7 regionach, magazyny depozytowe, serwis narzędzi.">
+<meta property="og:title" content="AWA - narzędzia skrawające i doradztwo techniczne">
+<meta property="og:description" content="Dobieramy narzędzia i parametry tak, żeby proces działał stabilnie - na Twojej maszynie, w Twoim materiale. Od 1992 r.">
+<meta property="og:image" content="img/frezowanie.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--stal:#1b2430;--stal2:#111821;--pom:#f26b21;--pom2:#d1560f;--szary:#5b6570;--jasny:#f3f5f7;--linia:#e1e6eb;--tekst:#1c2229}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;color:var(--tekst);background:#fff;line-height:1.6;font-size:16.5px}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--pom2)}
+h1,h2,h3,.num{font-family:"Barlow Condensed",Inter,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.szkic{background:#fff6d6;color:#6b4d00;border-bottom:1px solid #ecd58a;font-size:13.5px;text-align:center;padding:8px 14px;line-height:1.4}
+.szkic b{color:#4d3600}
+.pasek{background:var(--stal2);color:#b9c3cf;font-size:13px;padding:6px 0}
+.pasek .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.pasek b{color:#fff}.pasek a{color:#fff;text-decoration:none}
+header{position:sticky;top:0;z-index:50;background:var(--stal);border-bottom:1px solid #2a3542;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;position:relative}
+.logo img{height:38px;width:auto}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px}
+nav a{color:#dfe6ee;text-decoration:none;font-weight:600;font-size:14.5px}
+nav a:hover{color:var(--pom)}
+.tel{background:var(--pom);color:#fff!important;padding:10px 18px;border-radius:6px;font-weight:700;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px}
+.tel:hover{background:var(--pom2)}
+.burger{display:none;background:none;border:0;font-size:28px;line-height:1;color:#fff;cursor:pointer}
+.hero{background:linear-gradient(135deg,#111821 0%,#1b2430 55%,#25313f 100%);color:#fff;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.025) 0 1px,transparent 1px 80px)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-top:72px;padding-bottom:72px}
+.hero .nad{display:inline-block;color:var(--pom);font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-size:58px;line-height:1.02;margin:0 0 18px;font-weight:800;letter-spacing:.01em}
+.hero p{font-size:19px;margin:0 0 28px;color:#c9d3de;max-width:560px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 26px;border-radius:6px;font-weight:700;text-decoration:none;font-size:15.5px}
+.btn-p{background:var(--pom);color:#fff}.btn-p:hover{background:var(--pom2)}
+.btn-s{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}.btn-s:hover{border-color:#fff}
+.btn-d{background:var(--stal);color:#fff}.btn-d:hover{background:var(--stal2)}
+.mozaika{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.mozaika div{aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:#0d1319;border:1px solid #2a3542}
+.mozaika img{width:100%;height:100%;object-fit:cover;opacity:.92}
+.mozaika span{display:block;font-size:11px;color:#9fb0c2;padding:5px 8px;text-transform:uppercase;letter-spacing:.06em;margin-top:-28px;position:relative;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+.atuty{background:var(--stal2);color:#fff;border-top:1px solid #2a3542}
+.atuty .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.atut{padding:24px 22px;border-right:1px solid #2a3542}
+.atut:last-child{border-right:0}
+.atut .num{display:block;font-size:38px;font-weight:800;color:var(--pom);line-height:1}
+.atut span{color:#b9c3cf;font-size:14px}
+section{padding:64px 0}
+h2{font-size:40px;margin:0 0 10px;color:var(--stal);font-weight:800;line-height:1.05}
+.lead{color:var(--szary);max-width:760px;margin:0 0 34px;font-size:17.5px}
+.kat{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.k{background:#fff;border:1px solid var(--linia);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.k:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(27,36,48,.12)}
+.k img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.k .in{padding:16px 18px 18px}
+.k .nr{font-family:"Barlow Condensed";font-weight:700;color:var(--pom);font-size:14px;letter-spacing:.1em}
+.k h3{margin:2px 0 6px;font-size:22px;color:var(--stal)}
+.k p{margin:0;color:var(--szary);font-size:14.5px}
+.marki{background:var(--jasny)}
+.marki .lista{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
+.marka{background:#fff;border:1px solid var(--linia);border-radius:8px;padding:16px 22px;font-family:"Barlow Condensed";font-weight:800;font-size:26px;color:var(--stal);letter-spacing:.03em}
+.marka small{display:block;font-family:Inter;font-weight:500;font-size:12.5px;color:var(--szary);letter-spacing:0}
+.dlaczego{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.dl{display:flex;gap:16px;background:#fff;border:1px solid var(--linia);border-radius:10px;padding:22px}
+.dl .ik{flex:0 0 46px;height:46px;border-radius:8px;background:var(--stal);color:var(--pom);display:flex;align-items:center;justify-content:center;font-family:"Barlow Condensed";font-weight:800;font-size:20px}
+.dl h3{margin:0 0 6px;font-size:20px;color:var(--stal)}.dl p{margin:0;color:var(--szary);font-size:15px}
+.roz{background:var(--stal);color:#fff}
+.roz h2{color:#fff}.roz .lead{color:#b9c3cf}
+.rk{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.r{background:#25313f;border:1px solid #33404f;border-radius:10px;overflow:hidden}
+.r img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.r div{padding:16px 18px}.r h3{margin:0 0 6px;font-size:20px;color:#fff}.r p{margin:0 0 10px;color:#b9c3cf;font-size:14.5px}
+.r a{color:var(--pom);font-weight:700;text-decoration:none;font-size:14px}
+.doradcy{background:var(--jasny)}
+.dor{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.d{background:#fff;border:1px solid var(--linia);border-radius:10px;padding:18px 20px}
+.d .reg{font-size:12.5px;color:var(--pom);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.d b{display:block;font-size:17px;margin:4px 0 6px;color:var(--stal)}
+.d a{display:block;text-decoration:none;color:var(--tekst);font-size:14.5px}
+.d a.t{font-weight:700;font-size:16px}
+.wsparcie .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.form{background:#fff;border:1px solid var(--linia);border-radius:12px;padding:26px}
+.form label{display:block;font-size:13.5px;font-weight:600;color:var(--szary);margin:12px 0 4px}
+.form input,.form textarea,.form select{width:100%;padding:11px 12px;border:1px solid #cfd6dd;border-radius:6px;font:inherit;font-size:15px}
+.form textarea{min-height:100px}
+.form .demo{font-size:12.5px;color:#8a6d00;background:#fff6d6;padding:8px 10px;border-radius:6px;margin-top:12px}
+.kontakt .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.dane p{margin:0 0 12px}
+.dane a.big{font-size:26px;font-weight:800;text-decoration:none;display:inline-block;color:var(--stal);font-family:"Barlow Condensed"}
+.zarz{margin-top:16px;padding:16px 18px;background:var(--jasny);border-radius:10px;font-size:14.5px;color:var(--szary)}
+.zarz b{color:var(--stal)}
+.mapa{border-radius:12px;overflow:hidden;border:1px solid var(--linia)}
+.mapa iframe{width:100%;height:340px;border:0;display:block}
+.mapa a{display:block;text-align:center;padding:12px;font-weight:700;text-decoration:none;background:#fff}
+footer{background:var(--stal2);color:#9fb0c2;padding:34px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{color:#fff;text-decoration:none}
+.mobbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;grid-template-columns:1fr 1fr;background:#fff;border-top:1px solid var(--linia);box-shadow:0 -4px 16px rgba(0,0,0,.08)}
+.mobbar a{padding:14px;text-align:center;font-weight:700;text-decoration:none;font-size:15px}
+.mobbar a.z{background:var(--pom);color:#fff}.mobbar a.r{color:var(--stal)}
+@media (max-width:960px){
+ .hero .wrap{grid-template-columns:1fr;padding-top:48px;padding-bottom:48px}.hero h1{font-size:42px}
+ .atuty .wrap{grid-template-columns:1fr 1fr}.atut{border-bottom:1px solid #2a3542}
+ .kat{grid-template-columns:1fr 1fr}.rk{grid-template-columns:1fr}.dor{grid-template-columns:1fr 1fr}.dlaczego{grid-template-columns:1fr}
+ .wsparcie .wrap,.kontakt .wrap{grid-template-columns:1fr}
+ nav ul{display:none;position:absolute;left:0;right:0;top:100%;background:var(--stal);flex-direction:column;gap:0;border-bottom:1px solid #2a3542}
+ nav ul.otwarte{display:flex}
+ nav li{border-top:1px solid #2a3542}nav li a{display:block;padding:14px 20px}
+ .burger{display:block}.nav .tel{display:none}
+ .mobbar{display:grid}body{padding-bottom:54px}
+ section{padding:44px 0}h2{font-size:32px}
+}
+@media (max-width:560px){.kat{grid-template-columns:1fr}.dor{grid-template-columns:1fr}.mozaika{gap:6px}.pasek .wrap{justify-content:center;text-align:center}}
+</style>
+</head>
+<body>
+<div class="szkic"><b>Podgląd roboczy (szkic).</b> To wizualizacja na obecnych treściach i grafikach ze strony awa.pl. Wersja finalna będzie dopasowana do Państwa uwag: zdjęcia produktów w pełnej jakości, aktualne promocje, ostateczne teksty, kolory i układ.</div>
+<div class="pasek"><div class="wrap"><span>AWA Sp. z o.o. · ul. Sztygarska 11, 41-500 Chorzów · na rynku od 1992 r.</span><span><b>tel. 32 241 83 65</b> · <a href="mailto:awa@awa.pl">awa@awa.pl</a> · <a href="#" rel="noopener">Magazyn depozytowy: zaloguj</a></span></div></div>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#"><img src="img/logo_white.png" alt="AWA - narzędzia skrawające"></a>
+  <nav>
+   <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('otwarte')">&#9776;</button>
+   <ul id="menu">
+    <li><a href="#oferta">Oferta</a></li>
+    <li><a href="#marki">Marki</a></li>
+    <li><a href="#dlaczego">Dlaczego AWA</a></li>
+    <li><a href="#rozwiazania">Rozwiązania</a></li>
+    <li><a href="#doradcy">Doradcy</a></li>
+    <li><a href="#wsparcie">Wsparcie techniczne</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+   </ul>
+  </nav>
+  <a class="tel" href="tel:+48322418365">&#9742; 32 241 83 65</a>
+ </div>
+</header>
+
+<div class="hero">
+ <div class="wrap">
+  <div>
+   <span class="nad">Narzędzia skrawające i oprzyrządowanie CNC · od 1992</span>
+   <h1>Spokój technologiczny w obróbce skrawaniem</h1>
+   <p>Dobieramy narzędzia i parametry tak, żeby proces działał stabilnie: na Twojej maszynie, w Twoim materiale i przy Twoich wymaganiach. Ponad 250 tys. narzędzi katalogowych, narzędzia specjalne, wdrożenie u klienta i wsparcie po wdrożeniu.</p>
+   <div class="cta">
+    <a class="btn btn-p" href="#wsparcie">Wyślij zapytanie techniczne</a>
+    <a class="btn btn-s" href="#doradcy">Znajdź doradcę w regionie</a>
+   </div>
+  </div>
+  <div class="mozaika">
+   <div><img src="img/frezowanie.jpg" alt="Frezowanie"><span>Frezowanie</span></div>
+   <div><img src="img/toczenie.jpg" alt="Toczenie"><span>Toczenie</span></div>
+   <div><img src="img/plytki.jpg" alt="Płytki frezarskie ISO"><span>Płytki ISO</span></div>
+   <div><img src="img/wiercenie.jpg" alt="Wiercenie"><span>Wiercenie</span></div>
+   <div><img src="img/oprz.jpg" alt="Oprzyrządowanie"><span>Oprzyrządowanie</span></div>
+   <div><img src="img/wytaczanie.jpg" alt="Wytaczanie"><span>Wytaczanie</span></div>
+  </div>
+ </div>
+</div>
+
+<div class="atuty">
+ <div class="wrap">
+  <div class="atut"><span class="num">1992</span><span>nieprzerwanie na rynku narzędzi do obróbki skrawaniem</span></div>
+  <div class="atut"><span class="num">250 tys.</span><span>narzędzi katalogowych plus narzędzia specjalne</span></div>
+  <div class="atut"><span class="num">7</span><span>regionów z własnym doradcą technicznym</span></div>
+  <div class="atut"><span class="num">24 h</span><span>dostęp do narzędzi w magazynie depozytowym u klienta</span></div>
+ </div>
+</div>
+
+<section id="oferta">
+ <div class="wrap">
+  <h2>Oferta</h2>
+  <p class="lead">Dziewięć grup narzędzi od czołowych producentów. Do każdej grupy katalog producenta i doradca, który dobierze narzędzie pod konkretny proces, nie pod katalog.</p>
+  <div class="kat">
+   <div class="k"><img src="img/frezowanie.jpg" alt="Frezowanie" loading="lazy"><div class="in"><span class="nr">01</span><h3>Frezowanie</h3><p>Planowanie, walcowo-czołowe 90°, High Feed, monolityczne, frezy kształtowe.</p></div></div>
+   <div class="k"><img src="img/toczenie.jpg" alt="Toczenie" loading="lazy"><div class="in"><span class="nr">02</span><h3>Toczenie</h3><p>Płytki ISO, noże tokarskie.</p></div></div>
+   <div class="k"><img src="img/vhm.jpg" alt="Frezy VHM" loading="lazy"><div class="in"><span class="nr">03</span><h3>Frezy VHM</h3><p>Frezy węglikowe DHF i WIDIA.</p></div></div>
+   <div class="k"><img src="img/plytki.jpg" alt="Płytki frezarskie ISO" loading="lazy"><div class="in"><span class="nr">04</span><h3>Płytki frezarskie ISO</h3><p>TPKN, SPKN, SEKT, APMT, APKT, SEAN i inne.</p></div></div>
+   <div class="k"><img src="img/rowkowanie.jpg" alt="Przecinanie i rowkowanie" loading="lazy"><div class="in"><span class="nr">05</span><h3>Przecinanie i rowkowanie</h3><p>Oprawki ISCAR i WIDIA.</p></div></div>
+   <div class="k"><img src="img/wiercenie.jpg" alt="Wiercenie" loading="lazy"><div class="in"><span class="nr">06</span><h3>Wiercenie</h3><p>Wiertła VHM, składane, modułowe, HSS i HSS-E.</p></div></div>
+   <div class="k"><img src="img/gwintowanie.jpg" alt="Gwintowanie" loading="lazy"><div class="in"><span class="nr">07</span><h3>Gwintowanie</h3><p>Gwintowniki, frezowanie i toczenie gwintów.</p></div></div>
+   <div class="k"><img src="img/oprz.jpg" alt="Oprzyrządowanie" loading="lazy"><div class="in"><span class="nr">08</span><h3>Oprzyrządowanie</h3><p>Kojex, SK40/50 DIN 69871, BT40/50 MAS-403BT, HSK-A 63, HSK-E 32/40/50, VDI, tulejki, akcesoria.</p></div></div>
+   <div class="k"><img src="img/wytaczanie.jpg" alt="Wytaczanie" loading="lazy"><div class="in"><span class="nr">09</span><h3>Wytaczanie</h3><p>Tłumiki drgań COMAND TOOL, wytaczadła STANNY.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="marki" class="marki">
+ <div class="wrap">
+  <h2>Marki</h2>
+  <p class="lead">Wyłączny dystrybutor DHF i Kojex w Polsce, jeden z wiodących dystrybutorów Widia, Iscar i Lamina.</p>
+  <div class="lista">
+   <div class="marka">DHF<small>wyłączna dystrybucja</small></div>
+   <div class="marka">KOJEX<small>wyłączna dystrybucja</small></div>
+   <div class="marka">WIDIA<small>dystrybutor</small></div>
+   <div class="marka">ISCAR<small>dystrybutor</small></div>
+   <div class="marka">LAMINA<small>dystrybutor</small></div>
+   <div class="marka">COMAND TOOL<small>tłumiki drgań</small></div>
+   <div class="marka">STANNY<small>wytaczadła</small></div>
+  </div>
+ </div>
+</section>
+
+<section id="dlaczego">
+ <div class="wrap">
+  <h2>Dlaczego AWA</h2>
+  <p class="lead">Nie sprzedajemy katalogu. Dobieramy narzędzie, ustawiamy parametry, testujemy na Państwa maszynie i zostajemy po wdrożeniu.</p>
+  <div class="dlaczego">
+   <div class="dl"><div class="ik">01</div><div><h3>Wdrożenie u klienta przez specjalistów</h3><p>Doradca techniczny dobiera narzędzie i pomaga wdrożyć je na hali. Testy wdrożeniowe w realnych warunkach dają pewność optymalnego efektu.</p></div></div>
+   <div class="dl"><div class="ik">02</div><div><h3>Magazyn depozytowy</h3><p>Od 8 lat udostępniamy magazyny depozytowe. Stały dostęp do narzędzi 24 h na dobę, historia pobrań i zakupów, aktualne stany magazynowe w panelu online.</p></div></div>
+   <div class="dl"><div class="ik">03</div><div><h3>Serwis i regeneracja narzędzi</h3><p>Regeneracja zużytych narzędzi węglikowych i naprawa uszkodzonych narzędzi składanych, żeby obniżyć koszt obróbki na sztukę.</p></div></div>
+   <div class="dl"><div class="ik">04</div><div><h3>Bogaty asortyment i marki na wyłączność</h3><p>W jednym miejscu narzędzia katalogowe i specjalne od czołowych producentów. Oszczędność czasu na zakupach i jeden partner do rozmowy o procesie.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="rozwiazania" class="roz">
+ <div class="wrap">
+  <h2>Ciekawe rozwiązania z naszej oferty</h2>
+  <p class="lead">Materiały do pobrania: karty i prezentacje PDF z obecnej strony awa.pl.</p>
+  <div class="rk">
+   <div class="r"><img src="img/kx2025.jpg" alt="Kojex - precyzyjne frezowanie na długich wysięgach" loading="lazy"><div><h3>Kojex: precyzyjne frezowanie na długich wysięgach</h3><p>Zestawy startowe i oprawki Kojex do frezowania tam, gdzie standardowa oprawka drga.</p><a href="https://awa.pl/wp-content/uploads/2025/10/KX2025_ekran.pdf" target="_blank" rel="noopener">Pobierz PDF &rarr;</a></div></div>
+   <div class="r"><img src="img/wytaczaki.jpg" alt="Wytaczanie z tłumieniem drgań" loading="lazy"><div><h3>Wytaczanie z tłumieniem drgań</h3><p>Tłumiki drgań COMAND TOOL i wytaczadła STANNY do głębokich otworów.</p><a href="https://awa.pl/wp-content/uploads/2025/05/tlumiki_drgan_zestawienie.pdf" target="_blank" rel="noopener">Zestawienie PDF &rarr;</a></div></div>
+   <div class="r"><img src="img/zestawy.jpg" alt="Regeneracja kolejowych zestawów kołowych" loading="lazy"><div><h3>Narzędzia do regeneracji zestawów kołowych</h3><p>Rozwiązania dla zakładów naprawczych taboru kolejowego.</p><a href="https://awa.pl/wp-content/uploads/2025/05/regeneracja_zestawow.pdf" target="_blank" rel="noopener">Pobierz PDF &rarr;</a></div></div>
+   <div class="r"><img src="img/szyny.jpg" alt="Obróbka szyn w przemyśle kolejowym" loading="lazy"><div><h3>Obróbka szyn w przemyśle kolejowym</h3><p>Frezowanie i obróbka szyn: narzędzia i parametry dla przemysłu kolejowego.</p><a href="https://awa.pl/wp-content/uploads/2025/05/kolejnictwo_slajdy.pdf" target="_blank" rel="noopener">Pobierz PDF &rarr;</a></div></div>
+   <div class="r"><img src="img/oprawy.jpg" alt="Przegląd opraw narzędziowych WIDIA" loading="lazy"><div><h3>Przegląd opraw narzędziowych WIDIA</h3><p>Oprawki SK, BT, HSK i VDI w jednym zestawieniu.</p><a href="https://awa.pl/wp-content/uploads/2025/05/Przglad_opraw_narzedziowych_WIDIA-AWA.pdf" target="_blank" rel="noopener">Pobierz PDF &rarr;</a></div></div>
+   <div class="r"><img src="img/neoboss.jpg" alt="Gwintowniki Neoboss GreenRing Uni Plus" loading="lazy"><div><h3>Uniwersalne gwintowniki GreenRing Uni Plus</h3><p>Gwintowniki Neoboss do szerokiego zakresu materiałów.</p><a href="https://awa.pl/wp-content/uploads/2025/07/ulotkaNeoboss.pdf" target="_blank" rel="noopener">Ulotka PDF &rarr;</a></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="doradcy" class="doradcy">
+ <div class="wrap">
+  <h2>Doradcy techniczni w Państwa regionie</h2>
+  <p class="lead">Jeden telefon do osoby, która zna Państwa maszyny i materiał. Numery klikalne z telefonu.</p>
+  <div class="dor">
+   <div class="d"><span class="reg">woj. śląskie · dolnośląskie</span><b>Krzysztof Sieja</b><a class="t" href="tel:+48501290738">501 290 738</a><a href="mailto:krzysztof.sieja@awa.pl">krzysztof.sieja@awa.pl</a></div>
+   <div class="d"><span class="reg">ROW · śląskie · opolskie</span><b>Sebastian Lewiński</b><a class="t" href="tel:+48501614979">501 614 979</a><a href="mailto:sebastian.lewinski@awa.pl">sebastian.lewinski@awa.pl</a></div>
+   <div class="d"><span class="reg">łódzkie · świętokrzyskie</span><b>Marcin Bugajczyk</b><a class="t" href="tel:+48510168646">510 168 646</a><a href="mailto:marcin.bugajczyk@awa.pl">marcin.bugajczyk@awa.pl</a></div>
+   <div class="d"><span class="reg">małopolskie</span><b>Marcin Paszkowski</b><a class="t" href="tel:+48505275501">505 275 501</a><a href="mailto:marcin.paszkowski@awa.pl">marcin.paszkowski@awa.pl</a></div>
+   <div class="d"><span class="reg">podkarpackie</span><b>Edward Fic</b><a class="t" href="tel:+48505275500">505 275 500</a><a href="mailto:edward.fic@awa.pl">edward.fic@awa.pl</a></div>
+   <div class="d"><span class="reg">wielkopolskie</span><b>Biuro AWA</b><a class="t" href="tel:+48322479834">32 247 98 34</a><a href="mailto:awa@awa.pl">awa@awa.pl</a></div>
+   <div class="d"><span class="reg">Dyrektor handlowy</span><b>Tomasz Szlauer</b><a class="t" href="tel:+48501170587">501 170 587</a><a href="mailto:tomasz.szlauer@awa.pl">tomasz.szlauer@awa.pl</a></div>
+   <div class="d"><span class="reg">Dział sprzedaży · zakupy</span><b>Sebastian Kucharski</b><a class="t" href="tel:+48501777193">501 777 193</a><a href="mailto:sebastian.kucharski@awa.pl">sebastian.kucharski@awa.pl</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="wsparcie" class="wsparcie">
+ <div class="wrap">
+  <div>
+   <h2>Wsparcie techniczne</h2>
+   <p class="lead">Problem z trwałością płytki, drgania na wysięgu, dobór posuwu w trudnym materiale? Opisz krótko, dołącz rysunek albo zdjęcie. Odzywamy się w ciągu 2 dni roboczych.</p>
+   <img src="img/wsparcie.jpg" alt="Wsparcie techniczne AWA" loading="lazy" style="border-radius:10px;max-width:400px">
+  </div>
+  <form class="form" onsubmit="return false">
+   <label>Imię i nazwisko / firma</label><input type="text" placeholder="np. Jan Kowalski, Zakład Mechaniczny XYZ">
+   <label>E-mail</label><input type="email" placeholder="adres@firma.pl">
+   <label>Telefon</label><input type="tel" placeholder="500 000 000">
+   <label>Temat</label><select><option>Dobór narzędzia</option><option>Parametry skrawania</option><option>Drgania / wysięg</option><option>Regeneracja narzędzi</option><option>Magazyn depozytowy</option><option>Inne</option></select>
+   <label>Opisz krótko problem lub czego szukasz</label><textarea placeholder="Materiał, maszyna, operacja, obecne narzędzie i parametry, co nie działa"></textarea>
+   <label>Załącz rysunek lub zdjęcie (opcjonalnie)</label><input type="file">
+   <div style="margin-top:16px"><a class="btn btn-p" href="#">Wyślij zapytanie</a></div>
+   <div class="demo">Wersja robocza: formularz jest podglądem układu. W wersji finalnej trafia na awa@awa.pl z zabezpieczeniem antyspamowym bez CAPTCHA.</div>
+  </form>
+ </div>
+</section>
+
+<section id="kontakt" class="kontakt">
+ <div class="wrap">
+  <div class="dane">
+   <h2>Kontakt</h2>
+   <p><a class="big" href="tel:+48322418365">32 241 83 65</a><br>tel. 32 247 98 34, 32 247 98 32</p>
+   <p><a href="mailto:awa@awa.pl">awa@awa.pl</a></p>
+   <p>AWA Sp. z o.o.<br>ul. Sztygarska 11, 41-500 Chorzów</p>
+   <div class="zarz"><b>Zarząd i biuro</b><br>Katarzyna Kobrinsky, Prezes Zarządu · 509 692 088 · katarzyna.kobrinsky@awa.pl<br>Tomasz Szlauer, Dyrektor Handlowy · 501 170 587<br>Ewa Świerad, Główna Księgowa · 501 023 398 · ksiegowosc@awa.pl<br>Anna Pietruszka, Dział Sprzedaży / Faktury · 501 293 421<br>Janusz Sakowski, Kierownik magazynu · magazyn@awa.pl</div>
+   <p style="margin-top:18px"><a class="btn btn-d" href="https://www.linkedin.com/" target="_blank" rel="noopener">Społeczność LinkedIn</a></p>
+  </div>
+  <div class="mapa">
+   <iframe loading="lazy" src="https://www.google.com/maps?q=Sztygarska+11,+41-500+Chorz%C3%B3w&z=15&output=embed" title="Mapa dojazdu do AWA Chorzów"></iframe>
+   <a href="https://www.google.com/maps/dir/?api=1&destination=Sztygarska+11,+41-500+Chorz%C3%B3w" target="_blank" rel="noopener">Nawiguj do biura &rarr;</a>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div>AWA Sp. z o.o. · ul. Sztygarska 11, 41-500 Chorzów · narzędzia skrawające od 1992 r.</div>
+  <div><a href="#">Polityka jakości</a> · <a href="#">Praca</a> · <a href="#">Zaufali nam</a> · <a href="#">Polityka prywatności</a></div>
+ </div>
+</footer>
+
+<div class="mobbar"><a class="z" href="tel:+48322418365">&#9742; Zadzwoń</a><a class="r" href="#wsparcie">Zapytanie techniczne</a></div>
+</body>
+</html>
